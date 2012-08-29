@@ -1,0 +1,59 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+*/
+p.intro { font-size: 18px; line-height: 1.3; color: #555; }
+	h1 small, h2 small, h3 small, h4 small, h5 small { color: #777; font-size: 60%; font-weight: normal; }
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+	/* -----------------------------------------
+	   Header
+	----------------------------------------- */
+	header { background-color: #2ba6cb; padding: 22px 0; }
+	header h1 { color: #fff; font-weight: 500; }
+	header h4 { color: #fff; font-weight: 300; }
+	p.disclaimer { color: #999; }
+
+	/* Homepage */
+	header#homepage { background: url("../images/device-bg.png?1340846519") center bottom no-repeat #2ba6cb; padding: 22px 0 262px; }
+	header#homepage h4 { margin-bottom: 44px; }
+	header#homepage .button { background: #137795; border: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+	header#homepage .button:hover { background: #006582; }
+	header#homepage .button.secondary { background: #248cac; background: rgba(0, 0, 0, 0.15); color: #9ccbd9; color: rgba(255, 255, 255, 0.55); }
+	header#homepage .button.secondary.small { padding: 5px 8px 6px; }
+	header#homepage .button.secondary:hover { background: #207c98; background: rgba(0, 0, 0, 0.25); color: rgba(255, 255, 255, 0.75); }
+
+
+	#copyright { background: #3f3f3f; color: #fff; padding: 11px 0; margin-top: 44px; }
+	#copyright p, #copyright ul.link-list { margin-bottom: 0; }
+	#copyright a { color: #fff; }
+/* -----------------------------------------
+   Header and Footer
+----------------------------------------- */
+
+	header { margin-bottom: 20px; }
+	header nav ul { margin: 0 0 0 -20px; padding: 0; float: right; overflow: hidden; }
+	header nav ul li { margin: 0 0 0 20px; padding: 0; display: block; float: left; }
+	header nav a {color: #fffafa}
+	header nav a:hover{color: #ffa500}
+
+	footer { padding-bottom: 20px; }
+	footer .row { margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

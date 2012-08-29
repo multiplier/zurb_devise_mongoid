@@ -36,7 +36,7 @@
 	        <nav>
 	          <ul>
 	            <li><%= link_to "Home Page", root_path %></li>
-	            <li><%= link_to " About Us ", root_path %></li>
+	            <li><%= link_to " Posts ", posts_path %></li>
 	          </ul>
 	        </nav>
 	      </div>
@@ -44,10 +44,26 @@
 	  
 	  </div>
 	</header>
-    <div class="row">
+    <div class="row" style="min-height:550px;">
     	<div class="twelve columns">
     		<%= yield %>
     	</div>
     </div>
+
+
+	<div id="copyright">
+	<div class="row">
+	  <div class="eight columns">
+	    <p>© Learningslide Slide  2012. Learningslide is designed by <a href="http://webflame.com.au/"> Web Flame Solutions</a></p>
+	  </div>
+	  <div class="four columns">
+	    <ul class="link-list right">
+	      <li><a href="#">Home</a></li>
+	      <li><a href="#">About us</a></li>
+	      <li><a href="#">Sign up</a></li>
+	    </ul>
+	  </div>
+	</div>
+	</div>  
 </body>
 </html>

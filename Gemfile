@@ -29,8 +29,11 @@ gem "omniauth-facebook"
 
 #Assets and JavaScript
 gem 'jquery-rails'
-gem "zurb-foundation", :group => :assets
 gem 'backbone-on-rails'
+group :assets do
+  gem "zurb-foundation"
+  gem 'compass-rails' 
+end
 
 #Forms and dropdowns
 gem 'simple_form', '~> 2.0.0'
